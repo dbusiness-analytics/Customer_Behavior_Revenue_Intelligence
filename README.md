@@ -146,4 +146,4 @@ This project demonstrates how business intelligence tools and data analytics tec
 
 # 📌 Author
 
-Created by [DB-Analytics]
+Created by DB-Analytics
