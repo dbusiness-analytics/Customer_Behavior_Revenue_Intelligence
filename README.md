@@ -1,20 +1,23 @@
-# 📊 Customer Behavior & Revenue Intelligence Dashboard
+📊 Customer Behavior & Revenue Intelligence Dashboard
 
 An interactive Power BI dashboard project focused on analyzing customer behavior, website traffic, device usage, geographic performance, and revenue trends using the Google Analytics Ecommerce Dataset from BigQuery.
 
 The project combines SQL, data cleaning, Excel analysis, and Power BI visualization to generate business insights and support data-driven decision-making.
 
-# 🌍 Dashboard Preview
+🌍 Dashboard Preview
 
-![Dashboard](dashboard-preview.png)
+"Customer Revenue Overview" (./customer-revenue-overview.png)
 
-# 🗄️ SQL Queries & Results
+"Customer Behavior Analysis" (./customer-behavior-analysis.png)
 
-## 🔹 Main SQL Query
+🗄️ SQL Queries & Results
+
+🔹 Main SQL Query
 
 This query was used to extract and clean customer behavior and revenue data from BigQuery.
 
-### SQL Concepts Used:
+SQL Concepts Used:
+
 - SELECT
 - DISTINCT
 - WHERE
@@ -23,25 +26,26 @@ This query was used to extract and clean customer behavior and revenue data from
 - Aggregate Functions
 - CASE WHEN
 
-![Main SQL Query](sql-query-main.png)
+"Main SQL Query" (sql-query-main.png)
 
-## 🔹 UNION ALL Query
+🔹 UNION ALL Query
 
 This query demonstrates combining multiple BigQuery tables using UNION ALL.
 
-![UNION ALL Query](sql-query-union.png)
+"UNION ALL Query" (sql-query-union.png)
 
-## 🔹 SQL Results Preview
+🔹 SQL Results Preview
 
 Sample output of the extracted dataset used for analysis and dashboard creation.
 
-![SQL Results](sql-results.png)
+"SQL Results" (sql-results.png)
 
-# 🧹 Data Cleaning Process
+🧹 Data Cleaning Process
 
 The dataset was cleaned and transformed before analysis and visualization.
 
-### Cleaning Steps:
+Cleaning Steps:
+
 - Removed duplicate records
 - Handled null values
 - Standardized city values
@@ -50,19 +54,21 @@ The dataset was cleaned and transformed before analysis and visualization.
 - Corrected date formats
 - Prepared fields for Power BI analysis
 
-![Data Cleaning](data-cleaning.png)
+"Data Cleaning" (data-cleaning.png)
 
-# 📈 Dashboard Features
+📈 Dashboard Features
 
 - KPI Cards for Revenue, Transactions, Visits & Pageviews
 - Revenue Trend Analysis
 - Geographic Revenue Analysis
 - Traffic Source Performance
 - Browser & Device Insights
+- Revenue Segment Analysis
+- Weekly Revenue Performance
 - Interactive Filters & Slicers
 - Modern Dark Theme Dashboard Design
 
-# 🛠️ Tools & Technologies Used
+🛠️ Tools & Technologies Used
 
 - Power BI
 - Google BigQuery
@@ -73,77 +79,85 @@ The dataset was cleaned and transformed before analysis and visualization.
 - Business Intelligence
 - Data Analysis
 
-# 📂 Dataset
+📂 Dataset
 
-### Dataset Used:
+Dataset Used:
+
 Google Analytics Sample Ecommerce Dataset from BigQuery
 
 The dataset contains:
+
 - Website traffic data
 - Customer behavior analytics
 - Device usage information
 - Transactional and revenue data
 - Geographic performance insights
 
-# 🔍 Key Business Questions Answered
+🔍 Key Business Questions Answered
 
-- Which countries generated the highest revenue?
-- Which traffic sources drove the most transactions?
-- How did mobile users behave?
-- What were the revenue trends across the year?
-- Which browsers and cities performed best?
-- How did customers interact with the website before purchasing?
+- Which regions generated the highest revenue?
+- Which traffic sources generated the most revenue?
+- Which browsers were most frequently used during revenue-generating visits?
+- Which revenue segments contributed the most to total revenue?
+- How did revenue vary throughout the week?
+- Which countries and regions presented the strongest market opportunities?
 
-# 💡 Key Business Insights
+💡 Key Business Insights
 
-### 1. Most Revenue Came from the United States
-The United States generated the highest amount of revenue compared to other countries, making it the strongest performing market.
+1. North America Was the Strongest-Performing Market
 
-### 2. Revenue Changed Across the Year
-Revenue fluctuated across different months, with the highest revenue recorded around July, indicating seasonal purchasing behavior.
+North America generated the highest revenue, making it the strongest-performing market.
 
-### 3. Mobile Users Were Highly Active
-Most website activity and purchases came from mobile users, showing the importance of mobile commerce.
+2. Direct Traffic Was the Leading Revenue Source
 
-### 4. Customers Viewed Many Pages Before Purchasing
-Customers explored multiple pages before completing transactions, suggesting strong product browsing behavior.
+Direct traffic was the leading source of revenue, outperforming Google and YouTube.
 
-### 5. Few Transactions Generated Significant Revenue
-Although the number of transactions was relatively small, they contributed a substantial amount of revenue.
+3. Chrome and Safari Were the Leading Browsers
 
-### 6. Google Was the Main Traffic Source
-Most customers visited the website through Google search traffic, making it the leading acquisition channel.
+Chrome and Safari were the most frequently used browsers for revenue-generating visits, making browser optimization particularly important.
 
+4. Medium and High Revenue Segments Dominated
 
-# 🚀 Business Recommendations
+Medium and High revenue segments accounted for most of the total revenue, while the Low segment contributed the least.
 
-### 1. Improve the Mobile Experience
-The company should optimize the mobile website to make it faster, easier to navigate, and more user-friendly since most users shop on mobile devices.
+5. Revenue Varied Across the Week
 
-### 2. Focus on High-Revenue Countries
-Marketing efforts should be increased in top-performing countries, especially the United States, to maximize revenue growth.
+Revenue varied throughout the week, with Wednesday recording the highest revenue.
 
-### 3. Take Advantage of Peak Revenue Periods
-The company should increase promotions and advertising during high-performing months to maximize sales opportunities.
+🚀 Business Recommendations
 
-### 4. Strengthen Google Marketing Strategies
-The business should continue improving search engine visibility and SEO performance to attract more customers from Google.
+1. Strengthen High-Performing Traffic Channels
 
-### 5. Increase Conversion Rates
-Improving the checkout process and enhancing product pages can help encourage more visitors to complete purchases.
+Increase investment in Direct and Google marketing channels to maintain and grow high-performing traffic sources.
 
-### 6. Continue Using Data Analytics
-The company should continue using dashboards, analytics, and business intelligence tools to support data-driven decision-making.
+2. Optimize for Chrome and Safari
 
-# 📌 Project Outcome
+Optimize the website for Chrome and Safari to improve user experience and conversion rates.
+
+3. Expand High-Performing Markets
+
+Expand marketing efforts in high-performing regions, especially the United States, while exploring growth opportunities in other countries.
+
+4. Capitalize on High-Performing Days
+
+Launch promotions during high-performing days to maximize revenue and customer engagement.
+
+5. Continue Monitoring Customer Behavior
+
+Continue monitoring customer behavior through dashboards to support data-driven business decisions and identify emerging trends.
+
+📌 Project Outcome
 
 This project demonstrates how business intelligence tools and data analytics techniques can be used to:
+
 - Analyze customer behavior
 - Understand revenue trends
 - Evaluate traffic performance
+- Identify high-performing markets and channels
+- Generate actionable business insights
 - Support strategic business decisions
 - Create interactive and visually appealing dashboards
 
-# 📌 Author
+📌 Author
 
 Created by DB-Analytics
